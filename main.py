@@ -22,6 +22,7 @@ def main():
         #Refeshes Background color       
         screen.fill(BACKGROUND_COLOR)
         #displays player 
+        player.update(dt)
         player.draw(screen)
         pygame.display.update()
         #sets fps to 60
